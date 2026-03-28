@@ -61,3 +61,10 @@ git merge feature-x               # merge feature-x into main
 Resolve conflicts if any, then `git add` and `git commit`.
 
 
+### want to completely remove all local modifications:
+git reset --hard
+
+### also want to remove untracked files
+git clean -fd
+
+
