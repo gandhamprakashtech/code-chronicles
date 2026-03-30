@@ -68,3 +68,7 @@ git reset --hard
 git clean -fd
 
 
+### differences between the branches
+git diff  origin/main prakash --name-only
+to just displapy only file names
+
