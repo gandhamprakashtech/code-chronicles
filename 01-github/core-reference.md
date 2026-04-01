@@ -52,7 +52,6 @@ git switch main
 
 git checkout main                 # switch to target branch
 git merge feature-x               # merge feature-x into main
-
 Resolve conflicts if any, then `git add` and `git commit`.
 
 
@@ -61,7 +60,6 @@ git reset --hard
 
 ### also want to remove untracked files
 git clean -fd
-
 
 ### differences between the branches
 git diff  origin/main prakash --name-only
