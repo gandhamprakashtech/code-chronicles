@@ -17,19 +17,15 @@ git add <file>           # stage one file
 git add .                # stage all changes in current 
 
 ### Commit
-
 git commit -m "Your message"
 
-
 ### Pull before push
-
 git pull                  # pull from default remote/branch
 git pull origin main      # pull from specific remote and branch
 
 Resolve any merge conflicts, then commit.
 
 ### Push
-
 git push                  # push to default remote/branch
 git push origin main      # push to specific remote and branch
 git push -u origin main   # push and set upstream (first-time push for branch)
@@ -42,7 +38,6 @@ git push -u origin main   # push and set upstream (first-time push for branch)
 ## 2. Branching Basics
 
 ### Create a branch
-
 git branch feature-x              # create branch (does not switch)
 git checkout -b feature-x         # create and switch in one step
 
